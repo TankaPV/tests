@@ -1,14 +1,14 @@
-//15 минут
+//задача №1
 function cityString(arr) {
 	return arr.join(",") + ".";
 }
 
-//5 минут
+//Задача №2 
 function roundNumber(num) {
 	return Math.round(num/5)*5;
 }
 
-//2.5 часа
+//Задача №3
 function checkEnd(int) {
 	
 	let arr = String(int).split('').map((item) => {
@@ -33,7 +33,7 @@ function checkEnd(int) {
 
 }	
 
-//15-20 минут
+//Задача №4
 function checkNumber(num) {
 
 	if (num === 1 || num === 2) {
@@ -52,7 +52,7 @@ function checkNumber(num) {
 				
 }
 
-//2.5 часа
+//Задача №5
 function sameNumber(arr1,arr2) {
 
 	let arr3 = [], arr4 = [], arr5 = [];
